@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A91D1802045C77E00D468D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91D17F2045C77E00D468D1 /* AppDelegate.swift */; };
+		7A91D1822045C77E00D468D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91D1812045C77E00D468D1 /* ViewController.swift */; };
+		7A91D1852045C77E00D468D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A91D1832045C77E00D468D1 /* Main.storyboard */; };
+		7A91D1872045C77E00D468D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A91D1862045C77E00D468D1 /* Assets.xcassets */; };
+		7A91D18A2045C77E00D468D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A91D1882045C77E00D468D1 /* LaunchScreen.storyboard */; };
+		7A91D1952045C77F00D468D1 /* chandoor_secretCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91D1942045C77F00D468D1 /* chandoor_secretCodeTests.swift */; };
+		7A91D1A02045C77F00D468D1 /* chandoor_secretCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91D19F2045C77F00D468D1 /* chandoor_secretCodeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A91D1912045C77F00D468D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A91D1742045C77E00D468D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A91D17B2045C77E00D468D1;
+			remoteInfo = chandoor_secretCode;
+		};
+		7A91D19C2045C77F00D468D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A91D1742045C77E00D468D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A91D17B2045C77E00D468D1;
+			remoteInfo = chandoor_secretCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A91D17C2045C77E00D468D1 /* chandoor_secretCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chandoor_secretCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A91D17F2045C77E00D468D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A91D1812045C77E00D468D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A91D1842045C77E00D468D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A91D1862045C77E00D468D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A91D1892045C77E00D468D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A91D18B2045C77E00D468D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A91D1902045C77F00D468D1 /* chandoor_secretCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chandoor_secretCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A91D1942045C77F00D468D1 /* chandoor_secretCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chandoor_secretCodeTests.swift; sourceTree = "<group>"; };
+		7A91D1962045C77F00D468D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A91D19B2045C77F00D468D1 /* chandoor_secretCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chandoor_secretCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A91D19F2045C77F00D468D1 /* chandoor_secretCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chandoor_secretCodeUITests.swift; sourceTree = "<group>"; };
+		7A91D1A12045C77F00D468D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A91D1792045C77E00D468D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91D18D2045C77F00D468D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91D1982045C77F00D468D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A91D1732045C77E00D468D1 = {
+			isa = PBXGroup;
+			children = (
+				7A91D17E2045C77E00D468D1 /* chandoor_secretCode */,
+				7A91D1932045C77F00D468D1 /* chandoor_secretCodeTests */,
+				7A91D19E2045C77F00D468D1 /* chandoor_secretCodeUITests */,
+				7A91D17D2045C77E00D468D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A91D17D2045C77E00D468D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A91D17C2045C77E00D468D1 /* chandoor_secretCode.app */,
+				7A91D1902045C77F00D468D1 /* chandoor_secretCodeTests.xctest */,
+				7A91D19B2045C77F00D468D1 /* chandoor_secretCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A91D17E2045C77E00D468D1 /* chandoor_secretCode */ = {
+			isa = PBXGroup;
+			children = (
+				7A91D17F2045C77E00D468D1 /* AppDelegate.swift */,
+				7A91D1812045C77E00D468D1 /* ViewController.swift */,
+				7A91D1832045C77E00D468D1 /* Main.storyboard */,
+				7A91D1862045C77E00D468D1 /* Assets.xcassets */,
+				7A91D1882045C77E00D468D1 /* LaunchScreen.storyboard */,
+				7A91D18B2045C77E00D468D1 /* Info.plist */,
+			);
+			path = chandoor_secretCode;
+			sourceTree = "<group>";
+		};
+		7A91D1932045C77F00D468D1 /* chandoor_secretCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A91D1942045C77F00D468D1 /* chandoor_secretCodeTests.swift */,
+				7A91D1962045C77F00D468D1 /* Info.plist */,
+			);
+			path = chandoor_secretCodeTests;
+			sourceTree = "<group>";
+		};
+		7A91D19E2045C77F00D468D1 /* chandoor_secretCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A91D19F2045C77F00D468D1 /* chandoor_secretCodeUITests.swift */,
+				7A91D1A12045C77F00D468D1 /* Info.plist */,
+			);
+			path = chandoor_secretCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A91D17B2045C77E00D468D1 /* chandoor_secretCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A91D1A42045C77F00D468D1 /* Build configuration list for PBXNativeTarget "chandoor_secretCode" */;
+			buildPhases = (
+				7A91D1782045C77E00D468D1 /* Sources */,
+				7A91D1792045C77E00D468D1 /* Frameworks */,
+				7A91D17A2045C77E00D468D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chandoor_secretCode;
+			productName = chandoor_secretCode;
+			productReference = 7A91D17C2045C77E00D468D1 /* chandoor_secretCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A91D18F2045C77F00D468D1 /* chandoor_secretCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A91D1A72045C77F00D468D1 /* Build configuration list for PBXNativeTarget "chandoor_secretCodeTests" */;
+			buildPhases = (
+				7A91D18C2045C77F00D468D1 /* Sources */,
+				7A91D18D2045C77F00D468D1 /* Frameworks */,
+				7A91D18E2045C77F00D468D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A91D1922045C77F00D468D1 /* PBXTargetDependency */,
+			);
+			name = chandoor_secretCodeTests;
+			productName = chandoor_secretCodeTests;
+			productReference = 7A91D1902045C77F00D468D1 /* chandoor_secretCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A91D19A2045C77F00D468D1 /* chandoor_secretCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A91D1AA2045C77F00D468D1 /* Build configuration list for PBXNativeTarget "chandoor_secretCodeUITests" */;
+			buildPhases = (
+				7A91D1972045C77F00D468D1 /* Sources */,
+				7A91D1982045C77F00D468D1 /* Frameworks */,
+				7A91D1992045C77F00D468D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A91D19D2045C77F00D468D1 /* PBXTargetDependency */,
+			);
+			name = chandoor_secretCodeUITests;
+			productName = chandoor_secretCodeUITests;
+			productReference = 7A91D19B2045C77F00D468D1 /* chandoor_secretCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A91D1742045C77E00D468D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Chandoor,Vipul";
+				TargetAttributes = {
+					7A91D17B2045C77E00D468D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7A91D18F2045C77F00D468D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A91D17B2045C77E00D468D1;
+					};
+					7A91D19A2045C77F00D468D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A91D17B2045C77E00D468D1;
+					};
+				};
+			};
+			buildConfigurationList = 7A91D1772045C77E00D468D1 /* Build configuration list for PBXProject "chandoor_secretCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A91D1732045C77E00D468D1;
+			productRefGroup = 7A91D17D2045C77E00D468D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A91D17B2045C77E00D468D1 /* chandoor_secretCode */,
+				7A91D18F2045C77F00D468D1 /* chandoor_secretCodeTests */,
+				7A91D19A2045C77F00D468D1 /* chandoor_secretCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A91D17A2045C77E00D468D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A91D18A2045C77E00D468D1 /* LaunchScreen.storyboard in Resources */,
+				7A91D1872045C77E00D468D1 /* Assets.xcassets in Resources */,
+				7A91D1852045C77E00D468D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91D18E2045C77F00D468D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91D1992045C77F00D468D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A91D1782045C77E00D468D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A91D1822045C77E00D468D1 /* ViewController.swift in Sources */,
+				7A91D1802045C77E00D468D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91D18C2045C77F00D468D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A91D1952045C77F00D468D1 /* chandoor_secretCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91D1972045C77F00D468D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A91D1A02045C77F00D468D1 /* chandoor_secretCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A91D1922045C77F00D468D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A91D17B2045C77E00D468D1 /* chandoor_secretCode */;
+			targetProxy = 7A91D1912045C77F00D468D1 /* PBXContainerItemProxy */;
+		};
+		7A91D19D2045C77F00D468D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A91D17B2045C77E00D468D1 /* chandoor_secretCode */;
+			targetProxy = 7A91D19C2045C77F00D468D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A91D1832045C77E00D468D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A91D1842045C77E00D468D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A91D1882045C77E00D468D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A91D1892045C77E00D468D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A91D1A22045C77F00D468D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A91D1A32045C77F00D468D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A91D1A52045C77F00D468D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chandoor_secretCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.chandoor-secretCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A91D1A62045C77F00D468D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chandoor_secretCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.chandoor-secretCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A91D1A82045C77F00D468D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chandoor_secretCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.chandoor-secretCodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chandoor_secretCode.app/chandoor_secretCode";
+			};
+			name = Debug;
+		};
+		7A91D1A92045C77F00D468D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chandoor_secretCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.chandoor-secretCodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chandoor_secretCode.app/chandoor_secretCode";
+			};
+			name = Release;
+		};
+		7A91D1AB2045C77F00D468D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chandoor_secretCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.chandoor-secretCodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chandoor_secretCode;
+			};
+			name = Debug;
+		};
+		7A91D1AC2045C77F00D468D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = chandoor_secretCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.chandoor-secretCodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chandoor_secretCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A91D1772045C77E00D468D1 /* Build configuration list for PBXProject "chandoor_secretCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A91D1A22045C77F00D468D1 /* Debug */,
+				7A91D1A32045C77F00D468D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A91D1A42045C77F00D468D1 /* Build configuration list for PBXNativeTarget "chandoor_secretCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A91D1A52045C77F00D468D1 /* Debug */,
+				7A91D1A62045C77F00D468D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A91D1A72045C77F00D468D1 /* Build configuration list for PBXNativeTarget "chandoor_secretCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A91D1A82045C77F00D468D1 /* Debug */,
+				7A91D1A92045C77F00D468D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A91D1AA2045C77F00D468D1 /* Build configuration list for PBXNativeTarget "chandoor_secretCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A91D1AB2045C77F00D468D1 /* Debug */,
+				7A91D1AC2045C77F00D468D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A91D1742045C77E00D468D1 /* Project object */;
+}
