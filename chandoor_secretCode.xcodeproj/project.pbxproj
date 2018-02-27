@@ -14,6 +14,7 @@
 		7A91D18A2045C77E00D468D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A91D1882045C77E00D468D1 /* LaunchScreen.storyboard */; };
 		7A91D1952045C77F00D468D1 /* chandoor_secretCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91D1942045C77F00D468D1 /* chandoor_secretCodeTests.swift */; };
 		7A91D1A02045C77F00D468D1 /* chandoor_secretCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91D19F2045C77F00D468D1 /* chandoor_secretCodeUITests.swift */; };
+		7A91D1AE2045CAA600D468D1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91D1AD2045CAA600D468D1 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7A91D19B2045C77F00D468D1 /* chandoor_secretCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chandoor_secretCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A91D19F2045C77F00D468D1 /* chandoor_secretCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chandoor_secretCodeUITests.swift; sourceTree = "<group>"; };
 		7A91D1A12045C77F00D468D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A91D1AD2045CAA600D468D1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7A91D1862045C77E00D468D1 /* Assets.xcassets */,
 				7A91D1882045C77E00D468D1 /* LaunchScreen.storyboard */,
 				7A91D18B2045C77E00D468D1 /* Info.plist */,
+				7A91D1AD2045CAA600D468D1 /* File.swift */,
 			);
 			path = chandoor_secretCode;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A91D1822045C77E00D468D1 /* ViewController.swift in Sources */,
+				7A91D1AE2045CAA600D468D1 /* File.swift in Sources */,
 				7A91D1802045C77E00D468D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
